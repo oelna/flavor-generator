@@ -8,6 +8,11 @@ html {
 	hyphens: auto;
 }
 
+body {
+	margin: 0;
+	padding: 0.5em 1.5em;
+}
+
 nav {
 	margin: 1.5rem 0;
 }
