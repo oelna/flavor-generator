@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+
+html {
+	font: 100%/1.4 -system-ui, sans-serif;
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+nav {
+	margin: 1.5rem 0;
+}
+
+nav button {
+	-webkit-appearance: none;
+	border: 0;
+	font-size: 1.5rem;
+	background: #000;
+	color: #fff;
+	padding: 0.2em 0.5em;
+}
+
+#output {
+	margin: 0 auto;
+	max-width: 50ch;
+	font-size: 2rem;
+}
+
+@media (min-width: 50em) {
+	nav button {
+		font-size: 1.5rem;
+	}
+
+	#output {
+		font-size: 3rem;
+	}
+}
